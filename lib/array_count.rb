@@ -7,4 +7,5 @@ end
 def count_empty_strings(array)
   array.count do |element|
     element.to_s.strip.empty?
+  end
 end
